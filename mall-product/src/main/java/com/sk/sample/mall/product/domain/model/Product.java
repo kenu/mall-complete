@@ -17,6 +17,8 @@ public class Product extends AbstractEntity implements AggregateRoot {
 	
 	private ProductDescription productDescription;
 	
+	public Product() {}
+	
 	public Product(String name, Money price, ProductDescription productDescription) {
 		this.name = name;
 		this.price = price;

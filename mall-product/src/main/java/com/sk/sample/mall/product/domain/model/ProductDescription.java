@@ -17,6 +17,8 @@ public class ProductDescription implements ValueObject {
 	
 	@Enumerated(EnumType.STRING)
 	private SizeType sizeType;
+	
+	public ProductDescription() {}
 
 	public ProductDescription(ColorType colorType, SizeType sizeType) {
 		this.colorType = colorType;

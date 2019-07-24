@@ -26,6 +26,8 @@ public class Account extends AbstractEntity implements AggregateRoot {
 	
 	private Address address;
 	
+	public Account() {}
+	
 	public Account(String email, String name, MemberType memberType) {
 		this(email, name, memberType, MembershipLevelType.SILVER);
 	}

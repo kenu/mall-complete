@@ -22,6 +22,8 @@ public class Account {
 	
 	private Address address;
 	
+	public Account() {}
+	
 	public Account(String email, String name, MemberType memberType) {
 		this(email, name, memberType, MembershipLevelType.SILVER);
 	}

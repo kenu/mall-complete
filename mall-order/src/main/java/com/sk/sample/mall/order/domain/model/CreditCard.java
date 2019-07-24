@@ -12,6 +12,8 @@ public class CreditCard implements ValueObject {
 	private String cardNumber;
 	private String validThru;
 	
+	public CreditCard() {}
+	
 	public CreditCard(String cardNumber, String validThru) {
 		this.cardNumber = cardNumber;
 		this.validThru = validThru;

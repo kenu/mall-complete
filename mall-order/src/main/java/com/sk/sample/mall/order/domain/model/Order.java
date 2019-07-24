@@ -23,6 +23,8 @@ public class Order extends AbstractEntity implements AggregateRoot {
 	private Integer totalPrice;
 	private Boolean purchased = false;
 	
+	public Order() {}
+	
 	public Order(Long buyerAccountId, Long productId, Integer productCount) {
 		this.buyerAccountId = buyerAccountId;
 		this.productId = productId;

@@ -12,6 +12,8 @@ import lombok.Data;
 public class Money implements ValueObject {
 	private Integer value;
 	
+	public Money() {}
+	
 	public Money(Integer value) {
 		this.value = value;
 	}
